@@ -10,6 +10,7 @@
   --bt-background: #f5f4fa;
   --head-line: #ececec;
   --portfolio-box: #eeeeee;
+  --image-bg:#2F303A;
 }
 
 p,
@@ -111,6 +112,7 @@ section {
 .navig-item:not(:last-child) {
   margin-right: 50px;
 }
+
 .navig:hover {
   color: var(--item-on);
 }
@@ -120,6 +122,15 @@ section {
 
 .header-connect {
   margin-left: auto;
+}
+
+.contact-icon {
+  /* display: block; */
+  /* margin-left: auto; */
+  align-items: right;
+}
+.contact-icon::before {
+  color: var(--item-on);
 }
 
 /* ------- Заказ услуг ------- */
@@ -135,6 +146,7 @@ section {
 }
 .bg-hero {
   background: var(--section-bg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero_bg.jpg);
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
