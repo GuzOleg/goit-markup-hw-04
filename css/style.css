@@ -124,12 +124,12 @@ section {
   margin-left: auto;
 }
 
-.contacts svg {
+.contacts > svg {
   margin-right: 10px;
   align-items: center;
 }
 
-.contacts:hover {
+.contacts:hover > svg {
   fill: var(--item-on);
 }
 
