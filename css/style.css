@@ -124,10 +124,18 @@ section {
   margin-left: auto;
 }
 
-.contacts > svg {
+/* .contacts > svg {
+  margin-right: 10px;
+  align-items: center;
+} */
+
+.ico-contact {
   margin-right: 10px;
   align-items: center;
 }
+/* .ico-contact:hover {
+  fill: var(--item-on);
+} */
 
 .contacts:hover > svg {
   fill: var(--item-on);
