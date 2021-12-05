@@ -10,7 +10,7 @@
   --bt-background: #f5f4fa;
   --head-line: #ececec;
   --portfolio-box: #eeeeee;
-  --image-bg:#2F303A;
+  --image-bg: #2f303a;
 }
 
 p,
@@ -124,13 +124,13 @@ section {
   margin-left: auto;
 }
 
-.contact-icon {
-  /* display: block; */
-  /* margin-left: auto; */
-  align-items: right;
+.contacts svg {
+  margin-right: 10px;
+  align-items: center;
 }
-.contact-icon::before {
-  color: var(--item-on);
+
+.contacts:hover {
+  fill: var(--item-on);
 }
 
 /* ------- Заказ услуг ------- */
@@ -146,7 +146,18 @@ section {
 }
 .bg-hero {
   background: var(--section-bg);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero_bg.jpg);
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../img/hero_bg.jpg);
   padding-bottom: 200px;
   padding-top: 200px;
   text-align: center;
@@ -201,7 +212,6 @@ section {
 }
 .values-box li:not(:last-child) {
   margin: 0 30px 0 0;
-  
 }
 
 /* ------- Заголовки секций ------- */
@@ -248,7 +258,7 @@ section {
   display: flex;
 }
 .team-box li:not(:last-child) {
- margin-right: 30px;
+  margin-right: 30px;
 }
 .team-box li {
   background-color: var(--item-off);
@@ -299,8 +309,6 @@ section {
 .portfolio-box li {
   /* border: 1px solid var(--portfolio-box); */
   margin: 0 27px 30px 0;
-  
-  
 }
 .portfolio-box ul {
   margin: 0 -30px -30px 0;
@@ -383,7 +391,7 @@ address .link:hover {
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--text-footer);
-  }
+}
 address div {
   margin-bottom: 9px;
 }
