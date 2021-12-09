@@ -202,6 +202,7 @@ section {
   justify-content: space-between;
   padding-top: 95px;
   padding-bottom: 95px;
+  margin-bottom: 95px;
 }
 .values-box .list {
   display: flex;
@@ -215,11 +216,16 @@ section {
   margin: 0 30px 0 0;
 }
 
-.values-ico {
-  /* padding: 25px 100px 25px 100px; */
-
+.values-head {
+  height: 120px;
   background-color: var(--bt-background);
   border-radius: 4px;
+  /* text-align: center; */
+  padding: 25px 100px;
+  margin-bottom: 30px;
+}
+
+.values-ico {
 }
 
 /* ------- Заголовки секций ------- */
