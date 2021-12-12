@@ -269,7 +269,6 @@ section {
 .bg-member {
   background-color: var(--bt-background);
   padding: 95px 0 95px 0;
-  margin-bottom: 95px;
 }
 
 .member-item {
@@ -338,34 +337,36 @@ section {
 /* ------- Our clients -------- */
 .client-section {
   padding-bottom: 95px;
+  padding-top: 95px;
 }
 .client-box {
   display: flex;
   justify-content: space-between;
 }
 
-.client-item {
+.client-link {
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-ico);
   border-radius: 4px;
   padding: 16px 32px;
+  display: inline-block;
+  fill: var(--social-ico);
 }
 
-.client-item:hover {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--item-on);
-}
-.client-item:focus {
-  border-color: var(--item-on);
+  fill: var(--item-on);
 }
 
 .client-icon {
-  fill: var(--social-ico);
+  /* fill: var(--social-ico); */
 }
 
 .client-icon:hover,
 .client-icon:focus {
-  fill: var(--item-on);
+  /* fill: var(--item-on); */
 }
 
 /* ------- Портфолио меню ------- */
